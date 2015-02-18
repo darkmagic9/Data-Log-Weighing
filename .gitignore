@@ -16,27 +16,5 @@
 *.lvlps
 
 <<<<<<< HEAD
-.svn/entries
-.svn/format
-*.svn-base
-*.db
-*.mst
-*.id
-*.ini
-*.pdf
-*.cab
-*.msi
-*.rtf
-*.xml
-*.bin
-*.txt
-*.jrxml
-*.md
-Source_Code/Data_Text/Report/Print_Report_1.jrxml
-Source_Code/Data_Text/Report/Print_Report_1.jrxml
-*.jrxml
-*.md
-*.md
-=======
-.svn/*
+.svn
 >>>>>>> origin/master
