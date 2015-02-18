@@ -1,4 +1,3 @@
-<<<<<<< .mine
 # Libraries
 *.lvlibp
 *.llb
@@ -21,27 +20,3 @@
 Installer
 Application
 >>>>>>> origin/master
-=======
-# Libraries
-*.lvlibp
-*.llb
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-
-# Metadata
-*.aliases
-*.lvlps
-
-<<<<<<< HEAD
-.svn
-Installer
-Application
->>>>>>> origin/master
->>>>>>> .r12
