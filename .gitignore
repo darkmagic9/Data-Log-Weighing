@@ -15,6 +15,7 @@
 *.aliases
 *.lvlps
 
+<<<<<<< HEAD
 .svn/entries
 .svn/format
 *.svn-base
@@ -36,3 +37,6 @@ Source_Code/Data_Text/Report/Print_Report_1.jrxml
 *.jrxml
 *.md
 *.md
+=======
+.svn/*
+>>>>>>> origin/master
