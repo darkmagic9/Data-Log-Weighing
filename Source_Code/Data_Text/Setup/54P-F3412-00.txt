@@ -1,0 +1,13 @@
+Product_No : 54P-F3412-00
+Item_Code : 1
+Lot_No : uuuu
+Product_Name : new
+Unit_Weight : ddddd
+Quanity : hhhhh
+Rang_Min : ;kkkppppp
+Rang_Max : ddddd
+Create_Date : xxxxx
+Create_Time : 
+Create_ID : 
+Create_Name : 
+Remark : 

@@ -1,0 +1,13 @@
+Product_No : 1PA-F3412-00
+Item_Code : 2
+Lot_No : 223344
+Product_Name : RACE BALL
+Unit_Weight : 0.003
+Quanity : 400
+Rang_Min : 7
+Rang_Max : 9
+Create_Date : xxxxx
+Create_Time : 
+Create_ID : 
+Create_Name : 
+Remark : 

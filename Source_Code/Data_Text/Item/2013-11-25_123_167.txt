@@ -1,0 +1,14 @@
+Session_id : 167
+Create_date : 2013-11-25
+Create_time : 22:27:04
+Finish_date : 2013-11-25
+Finish_time : 22:27:17
+Product_No : 123
+Product_Name : 1333
+Lot_No : 1234
+Qc_Name : T.Saranya
+Item_Code : 46
+Unit_Weight : 1
+Quanity : 1
+Net_Weight_Value : 0.112
+Net_Weight_Status : OK

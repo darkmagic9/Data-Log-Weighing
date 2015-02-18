@@ -1,0 +1,14 @@
+Product_ID : 28D-F3412-00
+Item_Code : 1
+Part_No : uuuu
+Part_Name : aaaa
+Lot_No : ddddd
+Quanity : hhhhh
+Weight : ;kkk
+Rang_Min : ddddd
+Rang_Max : xxxxx
+Create_Date : 
+Create_Time : 
+Create_ID : 
+Create_Name : 
+Remark : fffffff
