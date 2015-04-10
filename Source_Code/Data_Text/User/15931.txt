@@ -1,7 +1,0 @@
-Session_Id : 1
-Id_Name : 15931
-Name : MR.CHAUWALIT  SASAT
-Role : Admin
-User_Edit : Admin
-Create_Date : 2012-12-11
-Create_Time : 22:26:23

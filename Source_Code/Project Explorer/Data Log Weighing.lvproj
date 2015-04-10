@@ -19,6 +19,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Data_Text" Type="Folder" URL="../../Data_Text">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Pro_Main_Datalog.vi" Type="VI" URL="../../ProgramUpdate.llb/Pro_Main_Datalog.vi"/>
 		<Item Name="zodiac-07-libra-scales.ico" Type="Document" URL="../zodiac-07-libra-scales.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -40,10 +43,12 @@
 				<Item Name="Create Error Clust.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create Error Clust.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Destroy ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Destroy ActiveX Event Queue.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
 				<Item Name="EventData.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/EventData.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
@@ -98,6 +103,7 @@
 				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
@@ -137,8 +143,14 @@
 			<Item Name="Pro_Session_User_CRS.vi" Type="VI" URL="../../ProgramUpdate.llb/Pro_Session_User_CRS.vi"/>
 			<Item Name="Pro_User_Count.vi" Type="VI" URL="../../ProgramUpdate.llb/Pro_User_Count.vi"/>
 			<Item Name="Pro_View_Data_Table.vi" Type="VI" URL="../../ProgramUpdate.llb/Pro_View_Data_Table.vi"/>
+			<Item Name="user32.dll" Type="Document" URL="user32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="User32.FindWindowA_byName.vi" Type="VI" URL="../../ProgramUpdate.llb/User32.FindWindowA_byName.vi"/>
+			<Item Name="User32.ShowWindow.vi" Type="VI" URL="../../ProgramUpdate.llb/User32.ShowWindow.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Data Log Weighing" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{DB690932-4CC2-4354-AF4E-067EAAEF4AFD}</Property>
@@ -147,23 +159,23 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Data Log Weighing</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/Z/10.ALL_Project/NI_AB_PROJECTNAME/Code_20131125-2014-12-24/Code_20131125/Application</Property>
+				<Property Name="Bld_localDestDir" Type="Path">//128.100.117.100/Data/10.ALL_Project/NI_AB_PROJECTNAME/Application</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{76D444F4-BC6A-4882-9906-4B230E0AB4E1}</Property>
 				<Property Name="Destination[0].destName" Type="Str">Data Log Weighing.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/Z/10.ALL_Project/NI_AB_PROJECTNAME/Code_20131125-2014-12-24/Code_20131125/Application/Data Log Weighing.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">//128.100.117.100/Data/10.ALL_Project/NI_AB_PROJECTNAME/Application/Data Log Weighing.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/Z/10.ALL_Project/NI_AB_PROJECTNAME/Code_20131125-2014-12-24/Code_20131125/Application/data</Property>
+				<Property Name="Destination[1].path" Type="Path">//128.100.117.100/Data/10.ALL_Project/NI_AB_PROJECTNAME/Application/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">Data_Text</Property>
-				<Property Name="Destination[2].path" Type="Path">/Z/10.ALL_Project/NI_AB_PROJECTNAME/Code_20131125-2014-12-24/Code_20131125/Application/Data_Text</Property>
+				<Property Name="Destination[2].path" Type="Path">//128.100.117.100/Data/10.ALL_Project/NI_AB_PROJECTNAME/Application/Data_Text</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/zodiac-07-libra-scales.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F42CA7FC-E09C-4362-B63D-18AB75005673}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5C7BE5E8-542A-4478-9729-57FA84A17BAA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Pro_Main_Datalog.vi</Property>
@@ -194,11 +206,11 @@
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{20385C41-50B1-4416-AC2A-F7D6423A9BD6}</Property>
 				<Property Name="DistPartCount" Type="Int">2</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/Z/10.ALL_Project/Data Log Weighing/Code_20131125-2014-12-24/Code_20131125/Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">//128.100.117.100/Data/10.ALL_Project/Data Log Weighing/Installer</Property>
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{39F29A34-48BB-4675-90F6-D7E9DCDC5B56}</Property>
 				<Property Name="INST_productName" Type="Str">Data Log Weighing</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.11</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.14</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">12008024</Property>
 				<Property Name="MSI_distID" Type="Str">{609B0CA6-B7C3-43E6-AB59-3C714FE91163}</Property>
@@ -226,7 +238,15 @@
 				<Property Name="Source[0].name" Type="Str">Data Log Weighing</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Data Log Weighing</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
+				<Property Name="Source[1].dest" Type="Str">{39F29A34-48BB-4675-90F6-D7E9DCDC5B56}</Property>
+				<Property Name="Source[1].File[0].dest" Type="Str">{39F29A34-48BB-4675-90F6-D7E9DCDC5B56}</Property>
+				<Property Name="Source[1].File[0].name" Type="Str">Count_Item.inf</Property>
+				<Property Name="Source[1].File[0].tag" Type="Ref">/My Computer/Data_Text/Count_Item.inf</Property>
+				<Property Name="Source[1].FileCount" Type="Int">1</Property>
+				<Property Name="Source[1].name" Type="Str">Data_Text</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/Data_Text</Property>
+				<Property Name="Source[1].type" Type="Str">Folder</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>

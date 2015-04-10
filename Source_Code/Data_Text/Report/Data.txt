@@ -1,14 +1,14 @@
 Session_id : 20
-Create_date : 2013-11-24
+Create_date : 2014-06-24
 Create_time : 18:30:35
 Finish_date : 2013-11-24
 Finish_time : 18:30:38
-Product_No : 1PAF341100
+Product_No : 53211-GN5-00-00-80
 Product_Name : RACE BALL
 Lot_No : 123456
-Qc_Name : S.Chauwalit
+Qc_Name : F.Lampard
 Item_Code : 1
-Unit_Weight : 0.007
+Unit_Weight : 21.234
 Quanity : 200
 Net_Weight_Value : 0.000
 Net_Weight_Status : P
