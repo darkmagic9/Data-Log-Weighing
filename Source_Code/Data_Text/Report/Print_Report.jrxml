@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Upper_Report" language="groovy" pageWidth="302" pageHeight="151" columnWidth="288" leftMargin="7" rightMargin="7" topMargin="6" bottomMargin="6">
+	<property name="ireport.zoom" value="2.3579476910000032"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Table">
+		<box leftPadding="5">
+			<pen lineWidth="1.0"/>
+			<topPen lineWidth="1.0"/>
+			<leftPen lineWidth="1.0"/>
+			<bottomPen lineWidth="1.0"/>
+			<rightPen lineWidth="1.0"/>
+		</box>
+	</style>
+	<parameter name="Computer_Name" class="java.lang.String"/>
+	<parameter name="Product_No" class="java.lang.String"/>
+	<parameter name="Product_Name" class="java.lang.String"/>
+	<parameter name="Lot_No" class="java.lang.String"/>
+	<parameter name="Qc_Name" class="java.lang.String"/>
+	<parameter name="Quanity" class="java.lang.String"/>
+	<parameter name="Net_Weight_Value" class="java.lang.String"/>
+	<parameter name="Create_date" class="java.lang.String"/>
+	<parameter name="Create_time" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="135" splitType="Stretch">
+			<staticText>
+				<reportElement style="Table" x="0" y="0" width="284" height="15"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[TANAKA PRECISION(THAILAND)CO.,LTD.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Table" x="0" y="15" width="284" height="15"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[FINISHED GOODS TAGE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Table" x="0" y="30" width="94" height="15"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Part No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Table" x="0" y="45" width="94" height="15"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Path Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Table" x="0" y="60" width="94" height="15"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Lot No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Table" x="0" y="75" width="94" height="15"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Q'ty]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Table" x="0" y="90" width="94" height="15"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Inspection By]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Table" x="0" y="105" width="94" height="15"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Inspection Date]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement style="Table" x="94" y="30" width="95" height="15"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{Product_No}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement style="Table" x="94" y="45" width="95" height="15"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Product_Name}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement style="Table" x="94" y="60" width="95" height="15"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{Lot_No}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement style="Table" x="94" y="75" width="95" height="15"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Quanity}+" PCS"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement style="Table" x="94" y="90" width="95" height="15"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{Qc_Name}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement style="Table" x="94" y="105" width="95" height="15"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{Create_date}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement style="Table" x="189" y="30" width="95" height="15"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{Net_Weight_Value}+" Kg."]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement style="Table" x="189" y="105" width="95" height="15"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[" Time : "+$P{Create_time}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement style="Table" x="189" y="45" width="95" height="60"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="120" width="284" height="15"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<text><![CDATA[FM-SPC-19 Rev.00]]></text>
+			</staticText>
+			<ellipse>
+				<reportElement mode="Transparent" x="4" y="1" width="39" height="13"/>
+			</ellipse>
+			<staticText>
+				<reportElement x="4" y="1" width="39" height="13"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[T.P.T]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
