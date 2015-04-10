@@ -1,0 +1,7 @@
+Session_Id : 14
+Id_Name : 96325
+Name : kuy
+Role : User
+User_Edit : Admin
+Create_Date : 2012-12-14
+Create_Time : 21:12:53
